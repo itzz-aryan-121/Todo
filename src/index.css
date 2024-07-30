@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+@keyframes button-pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.button-pulse {
+  animation: button-pulse 0.5s infinite;
+}
+
+.button-slide {
+  transition: transform 0.3s ease;
+}
+
+.button-slide:hover {
+  transform: translateY(-5px);
+}
