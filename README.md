@@ -28,4 +28,4 @@ Ensure you have Node.js (version 14 or higher) and npm (Node Package Manager) in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/yourusername/Todo.git
